@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Skill(plugin-dev:plugin-structure)",
+      "Skill(plugin-dev:skill-development)",
+      "Skill(plugin-dev:command-development)",
+      "Bash(wc:*)",
+      "Bash(/usr/bin/wc:*)",
+      "Bash(head:*)",
+      "Bash(find:*)"
+    ]
+  }
+}

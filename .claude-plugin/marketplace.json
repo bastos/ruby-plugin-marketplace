@@ -1,0 +1,40 @@
+{
+  "name": "bastos-plugins",
+  "owner": {
+    "name": "Claude Code Plugin",
+    "email": "code@bastos.dev"
+  },
+  "metadata": {
+    "description": "A curated collection of Claude Code plugins",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "ruby-on-rails",
+      "source": "./ruby-on-rails",
+      "description": "Comprehensive Ruby on Rails development toolkit - 15 skills covering all Rails components (Active Record, Action Controller, Action View, Active Job, Action Mailer, Active Storage, Action Cable, Action Text, Hotwire), plus generators, migrations, testing, security, and performance tools",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Plugin",
+        "email": "code@bastos.dev"
+      },
+      "license": "MIT",
+      "keywords": ["rails", "ruby", "hotwire", "turbo", "stimulus", "minitest", "activerecord", "activejob", "actionmailer", "activestorage", "actioncable", "actiontext"],
+      "category": "frameworks"
+    },
+    {
+      "name": "rspec",
+      "source": "./rspec",
+      "description": "Comprehensive RSpec testing toolkit - matchers, mocks, Rails integration, Factory Bot, and test organization patterns for Ruby applications",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Plugin",
+        "email": "code@bastos.dev"
+      },
+      "license": "MIT",
+      "keywords": ["rspec", "ruby", "testing", "tdd", "bdd", "mocks", "factories", "rails"],
+      "category": "testing"
+    }
+  ]
+}

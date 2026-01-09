@@ -1,0 +1,11 @@
+{
+  "name": "rspec",
+  "version": "1.0.0",
+  "description": "Comprehensive RSpec testing toolkit - matchers, mocks, Rails integration, Factory Bot, and test organization patterns for Ruby applications",
+  "author": {
+    "name": "Claude Code Plugin",
+    "email": "code@bastos.dev"
+  },
+  "keywords": ["rspec", "ruby", "testing", "tdd", "bdd", "mocks", "factories", "rails"],
+  "license": "MIT"
+}

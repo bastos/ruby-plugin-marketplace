@@ -1,0 +1,11 @@
+{
+  "name": "ruby-on-rails",
+  "version": "1.0.0",
+  "description": "Comprehensive Ruby on Rails development toolkit for Claude Code - 15 skills covering all Rails components (Active Record, Action Controller, Action View, Active Job, Action Mailer, Active Storage, Action Cable, Action Text, Hotwire), plus generators, migrations, testing, security, and performance tools",
+  "author": {
+    "name": "Claude Code Plugin",
+    "email": "code@bastos.dev"
+  },
+  "keywords": ["rails", "ruby", "hotwire", "turbo", "stimulus", "minitest", "activerecord", "activejob", "actionmailer", "activestorage", "actioncable", "actiontext"],
+  "license": "MIT"
+}
