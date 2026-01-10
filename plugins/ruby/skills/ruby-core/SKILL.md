@@ -1,6 +1,6 @@
 ---
 name: ruby-core
-description: This skill should be used when the user asks about "Ruby basics", "blocks", "procs", "lambdas", "enumerables", "iterators", "pattern matching", "error handling", "exceptions", "Ruby 3 features", "Ractors", "Data class", "endless methods", "refinements", or needs guidance on core Ruby language features and idioms.
+description: This skill should be used when the user asks about "Ruby basics", "blocks", "procs", "lambdas", "enumerables", "iterators", "pattern matching", "error handling", "exceptions", "Ruby 3 features", "Ractors", "Data class", "endless methods", "refinements", or needs guidance on Ruby language features and idioms.
 version: 1.0.0
 ---
 

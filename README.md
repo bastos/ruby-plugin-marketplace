@@ -6,6 +6,7 @@ A curated collection of Ruby plugins for Claude Code.
 
 | Plugin | Description |
 |--------|-------------|
+| [ruby](plugins/ruby/) | Ruby development toolkit with 8 skills, 5 commands, and 1 agent |
 | [ruby-on-rails](plugins/ruby-on-rails/) | Comprehensive Rails development toolkit with 15 skills, 8 commands, and 3 agents |
 | [rspec](plugins/rspec/) | Comprehensive RSpec testing toolkit with 7 skills, 3 commands, and 2 agents |
 
@@ -25,13 +26,19 @@ Or with a local path:
 
 ### Install a plugin
 
+Ruby (core):
+
+```bash
+/plugin install ruby@ruby-plugin-marketplace
+```
+
 Ruby on Rails:
 
 ```bash
 /plugin install ruby-on-rails@ruby-plugin-marketplace
 ```
 
-Rspec:
+RSpec:
 
 ```bash
 /plugin install rspec@ruby-plugin-marketplace
@@ -44,6 +51,11 @@ Rspec:
 ├── .claude-plugin/
 │   └── marketplace.json     # Marketplace manifest
 └── plugins/
+    ├── ruby/                # Ruby development toolkit
+    │   ├── .claude-plugin/
+    │   ├── agents/
+    │   ├── commands/
+    │   └── skills/
     ├── ruby-on-rails/       # Rails development toolkit
     │   ├── .claude-plugin/
     │   ├── agents/

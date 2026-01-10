@@ -1,12 +1,12 @@
 # Ruby Plugin for Claude Code
 
-A comprehensive Ruby development toolkit with 8 skills covering core Ruby features, metaprogramming, stdlib, design patterns, performance optimization, gem development, Rake, and Bundler.
+A comprehensive Ruby development toolkit with 8 skills covering Ruby features, metaprogramming, stdlib, design patterns, performance optimization, gem development, Rake, and Bundler.
 
 ## Features
 
 ### Skills (Auto-activate)
 
-**Core Ruby:**
+**Ruby:**
 - **Ruby Core** — Blocks, procs, lambdas, pattern matching, enumerables, error handling, Ruby 3.x features
 - **Metaprogramming** — DSLs, method_missing, define_method, hooks, class_eval, instance_eval
 - **Ruby Stdlib** — FileUtils, JSON, CSV, YAML, Net::HTTP, Struct, Set, Date/Time, Logger

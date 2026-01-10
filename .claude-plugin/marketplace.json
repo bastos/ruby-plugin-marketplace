@@ -40,7 +40,7 @@
     {
       "name": "ruby",
       "source": "./plugins/ruby",
-      "description": "Core Ruby development toolkit - metaprogramming, stdlib, design patterns, performance optimization, and gem development for Ruby 3.x",
+      "description": "Ruby development toolkit - metaprogramming, stdlib, design patterns, performance optimization, and gem development for Ruby 3.x",
       "version": "1.0.0",
       "author": {
         "name": "Tiago Bastos da Silva",
