@@ -8,11 +8,12 @@
   "metadata": {
     "description": "A collection of Ruby plugins for Claude Code created by @bastos",
     "version": "1.0.0"
+
   },
   "plugins": [
     {
       "name": "ruby-on-rails",
-      "source": "./ruby-on-rails",
+      "source": "./plugins/ruby-on-rails",
       "description": "Comprehensive Ruby on Rails development toolkit - 15 skills covering all Rails components (Active Record, Action Controller, Action View, Active Job, Action Mailer, Active Storage, Action Cable, Action Text, Hotwire), plus generators, migrations, testing, security, and performance tools",
       "version": "1.0.0",
       "author": {
@@ -25,7 +26,7 @@
     },
     {
       "name": "rspec",
-      "source": "./rspec",
+      "source": "./plugins/rspec",
       "description": "Comprehensive RSpec testing toolkit - matchers, mocks, Rails integration, Factory Bot, and test organization patterns for Ruby applications",
       "version": "1.0.0",
       "author": {
