@@ -36,6 +36,19 @@
       "license": "MIT",
       "tags": ["rspec", "ruby", "testing", "tdd", "bdd", "mocks", "factories", "rails"],
       "category": "testing"
+    },
+    {
+      "name": "ruby",
+      "source": "./plugins/ruby",
+      "description": "Core Ruby development toolkit - metaprogramming, stdlib, design patterns, performance optimization, and gem development for Ruby 3.x",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tiago Bastos da Silva",
+        "email": "code@bastos.dev"
+      },
+      "license": "MIT",
+      "tags": ["ruby", "metaprogramming", "dsl", "stdlib", "gems", "performance", "patterns", "rake", "bundler"],
+      "category": "languages"
     }
   ]
 }

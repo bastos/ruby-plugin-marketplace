@@ -1,0 +1,11 @@
+{
+  "name": "ruby",
+  "version": "1.0.0",
+  "description": "Core Ruby development toolkit - metaprogramming, stdlib, design patterns, performance optimization, gem development, Rake, and Bundler for Ruby 3.x",
+  "author": {
+    "name": "Tiago Bastos da Silva",
+    "email": "code@bastos.dev"
+  },
+  "keywords": ["ruby", "metaprogramming", "dsl", "stdlib", "gems", "performance", "patterns", "rake", "bundler"],
+  "license": "MIT"
+}
