@@ -1,14 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "bastos-plugins",
+  "name": "claude-code-plugin-marketplace",
   "owner": {
     "name": "Tiago Bastos da Silva",
     "email": "code@bastos.dev"
   },
   "metadata": {
     "description": "A collection of Claude Code plugins created by @bastos",
-    "version": "1.0.0",
-    "pluginRoot": "./plugins"
+    "version": "1.0.0"
   },
   "plugins": [
     {
@@ -21,7 +20,7 @@
         "email": "code@bastos.dev"
       },
       "license": "MIT",
-      "keywords": ["rails", "ruby", "hotwire", "turbo", "stimulus", "minitest", "activerecord", "activejob", "actionmailer", "activestorage", "actioncable", "actiontext"],
+      "tags": ["rails", "ruby", "hotwire", "turbo", "stimulus", "minitest", "activerecord", "activejob", "actionmailer", "activestorage", "actioncable", "actiontext"],
       "category": "frameworks"
     },
     {
@@ -34,7 +33,7 @@
         "email": "code@bastos.dev"
       },
       "license": "MIT",
-      "keywords": ["rspec", "ruby", "testing", "tdd", "bdd", "mocks", "factories", "rails"],
+      "tags": ["rspec", "ruby", "testing", "tdd", "bdd", "mocks", "factories", "rails"],
       "category": "testing"
     }
   ]
