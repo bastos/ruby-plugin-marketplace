@@ -9,6 +9,7 @@ structure.
 - `.claude-plugin/marketplace.json`: marketplace manifest
 - `plugins/`: contains individual plugins
   - `ruby-on-rails/`: Ruby on Rails development toolkit
+  - `rspec/`: RSpec testing toolkit
 
 ## Adding plugins
 

@@ -1,12 +1,12 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-code-plugin-marketplace",
+  "name": "ruby-plugin-marketplace",
   "owner": {
     "name": "Tiago Bastos da Silva",
     "email": "code@bastos.dev"
   },
   "metadata": {
-    "description": "A collection of Claude Code plugins created by @bastos",
+    "description": "A collection of Ruby plugins for Claude Code created by @bastos",
     "version": "1.0.0"
   },
   "plugins": [

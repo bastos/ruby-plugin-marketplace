@@ -1,6 +1,6 @@
-# Bastos' Claude Code Plugin Marketplace
+# Bastos' Ruby Plugin Marketplace
 
-A curated collection of Claude Code plugins.
+A curated collection of Ruby plugins for Claude Code.
 
 ## Available Plugins
 
@@ -13,20 +13,28 @@ A curated collection of Claude Code plugins.
 
 ### Add the marketplace
 
-```
-/plugin marketplace add bastos/ruby-on-rails
+```bash
+/plugin marketplace add bastos/ruby-plugin-marketplace
 ```
 
 Or with a local path:
 
-```
-/plugin marketplace add ./path/to/marketplace
+```bash
+/plugin marketplace add ./path/to/ruby-plugin-marketplace
 ```
 
 ### Install a plugin
 
+Ruby on Rails:
+
+```bash
+/plugin install ruby-on-rails@ruby-plugin-marketplace
 ```
-/plugin install ruby-on-rails@bastos-plugins
+
+Rspec:
+
+```bash
+/plugin install rspec@ruby-plugin-marketplace
 ```
 
 ## Structure
