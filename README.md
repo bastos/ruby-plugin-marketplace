@@ -60,7 +60,6 @@ RSpec:
     │   ├── .claude-plugin/
     │   ├── agents/
     │   ├── commands/
-    │   ├── hooks/
     │   ├── skills/
     │   └── scripts/
     └── rspec/               # RSpec testing toolkit
