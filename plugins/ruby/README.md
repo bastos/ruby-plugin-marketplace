@@ -36,6 +36,30 @@ A comprehensive Ruby development toolkit with 8 skills covering Ruby features, m
 |-------|-------------|
 | **Ruby Developer** | Master Ruby 3.2+ with metaprogramming, performance optimization, and idiomatic patterns |
 
+### Language Server (LSP)
+
+This plugin includes [Ruby LSP](https://shopify.github.io/ruby-lsp/) — Shopify's official Ruby language server — for enhanced code intelligence:
+
+- Go to definition
+- Find all references
+- Code completion
+- Diagnostics and linting
+- Hover documentation
+- Signature help
+- Document symbols
+
+**Supported file types:** `.rb`, `.erb`, `.rake`, `.gemspec`, `.ru`
+
+Install the language server gem before using:
+
+```bash
+gem install ruby-lsp
+```
+
+**More information:**
+- [Ruby LSP Documentation](https://shopify.github.io/ruby-lsp/)
+- [GitHub Repository](https://github.com/Shopify/ruby-lsp)
+
 ## Installation
 
 ### Via Marketplace
@@ -58,6 +82,7 @@ claude --plugin-dir /path/to/plugins/ruby
 
 - Ruby 3.2+
 - Claude Code
+- `ruby-lsp` gem (for LSP features): `gem install ruby-lsp`
 
 ## Usage Examples
 

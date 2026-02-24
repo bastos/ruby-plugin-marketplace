@@ -40,14 +40,14 @@
     {
       "name": "ruby",
       "source": "./plugins/ruby",
-      "description": "Ruby development toolkit - metaprogramming, stdlib, design patterns, performance optimization, and gem development for Ruby 3.x",
-      "version": "1.0.0",
+      "description": "Ruby development toolkit with LSP support - metaprogramming, stdlib, design patterns, performance optimization, and gem development for Ruby 3.x",
+      "version": "1.0.1",
       "author": {
         "name": "Tiago Bastos da Silva",
         "email": "code@bastos.dev"
       },
       "license": "MIT",
-      "tags": ["ruby", "metaprogramming", "dsl", "stdlib", "gems", "performance", "patterns", "rake", "bundler"],
+      "tags": ["ruby", "metaprogramming", "dsl", "stdlib", "gems", "performance", "patterns", "rake", "bundler", "lsp", "language-server"],
       "category": "languages"
     }
   ]
