@@ -7,21 +7,21 @@
   },
   "metadata": {
     "description": "A collection of Ruby plugins for Claude Code created by @bastos",
-    "version": "1.0.0"
+    "version": "1.1.0"
 
   },
   "plugins": [
     {
       "name": "ruby-on-rails",
       "source": "./plugins/ruby-on-rails",
-      "description": "Comprehensive Ruby on Rails development toolkit - 15 skills covering all Rails components (Active Record, Action Controller, Action View, Active Job, Action Mailer, Active Storage, Action Cable, Action Text, Hotwire), plus generators, migrations, testing, security, and performance tools",
-      "version": "1.0.0",
+      "description": "Comprehensive Ruby on Rails development toolkit - 16 skills covering all Rails components (Active Record, Action Controller, Action View, Active Job, Action Mailer, Active Storage, Action Cable, Action Text, Hotwire), plus generators, migrations, testing, security, performance tools, and staff-level Rails code review",
+      "version": "1.1.0",
       "author": {
         "name": "Tiago Bastos da Silva",
         "email": "code@bastos.dev"
       },
       "license": "MIT",
-      "tags": ["rails", "ruby", "hotwire", "turbo", "stimulus", "minitest", "activerecord", "activejob", "actionmailer", "activestorage", "actioncable", "actiontext"],
+      "tags": ["rails", "ruby", "hotwire", "turbo", "stimulus", "minitest", "activerecord", "activejob", "actionmailer", "activestorage", "actioncable", "actiontext", "code-review"],
       "category": "frameworks"
     },
     {

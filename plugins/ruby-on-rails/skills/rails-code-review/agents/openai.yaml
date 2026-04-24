@@ -1,0 +1,8 @@
+interface:
+  display_name: "Rails Code Review"
+  short_description: "Portable staff-level Rails reviews using Rails Guides, local app rules, automated checks, and production ownership."
+  brand_color: "#D30001"
+  default_prompt: "Review the Rails changes. First discover this app's Rails version, stack, and local rules. If the target is unclear, ask whether to review local changes, this branch against main, or a PR."
+
+policy:
+  allow_implicit_invocation: true

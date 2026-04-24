@@ -1,6 +1,6 @@
 # Ruby on Rails Plugin for Claude Code
 
-A comprehensive Rails development toolkit with 15 skills covering all major Rails components, helping you build Rails 7+ applications with Hotwire following best practices for security and performance.
+A comprehensive Rails development toolkit with 16 skills covering all major Rails components, helping you build Rails 7+ applications with Hotwire following best practices for security, performance, and code review.
 
 ## Features
 
@@ -32,6 +32,9 @@ A comprehensive Rails development toolkit with 15 skills covering all major Rail
 
 **Testing:**
 - **Minitest** — Minitest patterns, fixtures, integration tests
+
+**Review:**
+- **Rails Code Review** — Portable staff-level Rails reviews grounded in Rails Guides, Rails Doctrine, each app's local rules, automated checks, and production ownership
 
 ### Commands
 

@@ -7,7 +7,7 @@ A curated collection of Ruby plugins for Claude Code.
 | Plugin | Description |
 |--------|-------------|
 | [ruby](plugins/ruby/) | Ruby development toolkit with 8 skills, 5 commands, and 1 agent |
-| [ruby-on-rails](plugins/ruby-on-rails/) | Comprehensive Rails development toolkit with 15 skills, 8 commands, and 3 agents |
+| [ruby-on-rails](plugins/ruby-on-rails/) | Comprehensive Rails development toolkit with 16 skills, 8 commands, and 3 agents |
 | [rspec](plugins/rspec/) | Comprehensive RSpec testing toolkit with 7 skills, 3 commands, and 2 agents |
 
 ## Installation
