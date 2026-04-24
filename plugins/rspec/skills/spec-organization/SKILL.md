@@ -1,5 +1,5 @@
 ---
-name: Spec Organization
+name: spec-organization
 description: This skill should be used when the user asks about "shared examples", "shared contexts", "spec structure", "test organization", "describe blocks", "RSpec tagging", "spec file layout", or needs guidance on organizing and structuring RSpec test suites.
 version: 1.0.0
 ---
@@ -377,15 +377,3 @@ spec/
 │       ├── add_to_cart_spec.rb
 │       └── payment_spec.rb
 ```
-
-## Additional Resources
-
-### Reference Files
-
-- **`references/shared-examples-patterns.md`** - Advanced shared example patterns
-- **`references/support-structure.md`** - Support directory organization
-
-### Example Files
-
-- **`examples/support/shared_examples/`** - Reusable shared examples
-- **`examples/support/helpers/`** - Custom helper modules

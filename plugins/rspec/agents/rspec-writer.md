@@ -1,4 +1,5 @@
 ---
+name: rspec-writer
 model: sonnet
 description: Writes comprehensive RSpec specs following best practices. Proactively triggers when creating or modifying Ruby classes that need tests.
 whenToUse: |

@@ -1,5 +1,5 @@
 ---
-name: Spec Performance
+name: spec-performance
 description: This skill should be used when the user asks about "slow specs", "test performance", "parallel tests", "spec profiling", "let vs let!", "build vs create", "test optimization", or needs guidance on making RSpec tests faster.
 version: 1.0.0
 ---
@@ -379,15 +379,3 @@ it "performs quickly" do
   measure("User build") { build(:user) }
 end
 ```
-
-## Additional Resources
-
-### Reference Files
-
-- **`references/parallel-testing.md`** - Parallel test configuration
-- **`references/ci-optimization.md`** - CI-specific optimizations
-
-### Example Files
-
-- **`examples/fast_spec.rb`** - Optimized spec patterns
-- **`examples/slow_spec.rb`** - Anti-patterns to avoid

@@ -1,5 +1,5 @@
 ---
-name: RSpec Mocks
+name: rspec-mocks
 description: This skill should be used when the user asks about "test doubles", "mocking", "stubbing", "spies", "verifying doubles", "partial doubles", "allow", "receive", "have_received", or needs guidance on isolating tests and mocking dependencies in RSpec.
 version: 1.0.0
 ---
@@ -339,12 +339,4 @@ allow(UserValidator).to receive(:validate)  # Maybe just use real one?
 
 ## Additional Resources
 
-### Reference Files
-
 - **`references/mock-patterns.md`** - Common mocking patterns
-- **`references/test-isolation.md`** - When and what to mock
-
-### Example Files
-
-- **`examples/service_with_mocks.rb`** - Service testing with mocks
-- **`examples/api_client_spec.rb`** - Mocking HTTP clients

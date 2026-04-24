@@ -1,4 +1,5 @@
 ---
+name: spec-reviewer
 model: haiku
 description: Reviews RSpec specs for quality, best practices, and coverage. Suggests improvements for test organization, performance, and reliability.
 whenToUse: |

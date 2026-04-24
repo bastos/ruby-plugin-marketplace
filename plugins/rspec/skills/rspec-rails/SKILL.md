@@ -1,5 +1,5 @@
 ---
-name: RSpec Rails
+name: rspec-rails
 description: This skill should be used when the user asks about "request specs", "system specs", "model specs", "controller specs", "mailer specs", "feature specs", "Capybara", "rspec-rails", or needs guidance on testing Rails applications with RSpec.
 version: 1.0.0
 ---
@@ -362,15 +362,3 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
 end
 ```
-
-## Additional Resources
-
-### Reference Files
-
-- **`references/system-spec-patterns.md`** - Advanced Capybara patterns
-- **`references/request-spec-patterns.md`** - API testing patterns
-
-### Example Files
-
-- **`examples/full_request_spec.rb`** - Complete request spec example
-- **`examples/system_spec_with_js.rb`** - JavaScript testing example

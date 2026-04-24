@@ -1,5 +1,5 @@
 ---
-name: RSpec Matchers
+name: rspec-matchers
 description: This skill should be used when the user asks about "RSpec matchers", "expect syntax", "custom matchers", "compound matchers", "should vs expect", mentions "eq", "be", "include", "match", "have_attributes", or needs guidance on RSpec assertions and expectations.
 version: 1.0.0
 ---
@@ -313,15 +313,3 @@ expect(user).to have_errors_on(:email).with_message("is invalid")
 | `have_attributes(h)` | Object attributes |
 | `all(matcher)` | All elements match |
 | `contain_exactly(...)` | Exact elements, any order |
-
-## Additional Resources
-
-### Reference Files
-
-For advanced patterns:
-- **`references/custom-matchers.md`** - Complete custom matcher guide
-- **`references/matcher-aliases.md`** - Full list of matcher aliases
-
-### Example Files
-
-- **`examples/custom_matchers.rb`** - Working custom matcher examples

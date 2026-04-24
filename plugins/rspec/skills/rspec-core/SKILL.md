@@ -1,5 +1,5 @@
 ---
-name: RSpec Core
+name: rspec-core
 description: This skill should be used when the user asks to "write an RSpec test", "create a spec", "use describe blocks", "set up let variables", "use before hooks", "understand RSpec structure", mentions "subject", "context", "it blocks", or needs guidance on RSpec 3.x fundamentals and test structure.
 version: 1.0.0
 ---
@@ -320,14 +320,5 @@ Each example should be able to run in isolation. Avoid dependencies between exam
 
 ## Additional Resources
 
-### Reference Files
-
 For advanced patterns and detailed examples:
 - **`references/hooks-deep-dive.md`** - Comprehensive hook patterns and execution order
-- **`references/configuration.md`** - Full RSpec configuration options
-
-### Example Files
-
-Working examples in `examples/`:
-- **`examples/model_spec.rb`** - Complete model spec example
-- **`examples/service_spec.rb`** - Service object testing patterns

@@ -1,5 +1,5 @@
 ---
-name: Factory Bot
+name: factory-bot
 description: This skill should be used when the user asks about "factories", "FactoryBot", "factory_bot", "traits", "sequences", "build vs create", "transient attributes", "associations in factories", or needs guidance on test data generation in RSpec.
 version: 1.0.0
 ---
@@ -418,15 +418,3 @@ let(:post) { create(:post, user: user) }
 # Avoid - creating unused associated records
 let(:user) { create(:user, :with_posts, :with_comments) }
 ```
-
-## Additional Resources
-
-### Reference Files
-
-- **`references/factory-patterns.md`** - Advanced factory patterns
-- **`references/faker-examples.md`** - Faker gem examples
-
-### Example Files
-
-- **`examples/factories/users.rb`** - Complete user factory
-- **`examples/factories/orders.rb`** - Complex association example
