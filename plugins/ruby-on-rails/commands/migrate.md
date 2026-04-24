@@ -1,6 +1,6 @@
 ---
 description: Database migration management - create, run, rollback, status
-argument-hint: [action] [options...]
+argument-hint: "[action] [options...]"
 allowed-tools: Read, Bash(rails:*, bundle:*), Glob, Grep
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: Run tests with smart filtering - supports Minitest
-argument-hint: [file-or-pattern] [options...]
+argument-hint: "[file-or-pattern] [options...]"
 allowed-tools: Read, Bash(bundle:*, rails:*, ruby:*), Glob, Grep
 ---
 

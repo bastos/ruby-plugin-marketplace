@@ -1,6 +1,6 @@
 ---
 description: Smart Rails generator with suggestions and best practices
-argument-hint: [generator-type] [name] [attributes...]
+argument-hint: "[generator-type] [name] [attributes...]"
 allowed-tools: Read, Bash(rails:*, bundle:*), Glob
 ---
 

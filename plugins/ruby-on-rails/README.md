@@ -57,10 +57,6 @@ A comprehensive Rails development toolkit with 16 skills covering all major Rail
 | **Minitest Tester** | Writes Minitest tests following Rails testing guides |
 | **Rails Developer** | Builds and refactors Rails features with staff-level practices |
 
-### Hooks
-
-- Pre-commit validation for pending migrations and missing indexes
-
 ## Installation
 
 ### Via Marketplace (Recommended)

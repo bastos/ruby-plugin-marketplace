@@ -1,15 +1,15 @@
 # Claude Instructions
 
-This is the Ruby on Rails plugin for Claude Code. Follow the
-project documentation in `README.md` and keep changes consistent with the
-existing plugin structure.
+This is the Ruby on Rails plugin for Codex and Claude Code. Follow the project
+documentation in `README.md` and keep changes consistent with the existing
+plugin structure.
 
 ## Repo layout
 - `agents/`: subagent definitions
 - `commands/`: CLI command docs
-- `hooks/`: hook configuration
 - `skills/`: skill definitions and references
 - `.claude-plugin/plugin.json`: plugin metadata
+- `.codex-plugin/plugin.json`: Codex plugin metadata
 
 ## Commit messages (Conventional Commits)
 Use Conventional Commits v1.0.0 for all commit messages.
@@ -39,7 +39,6 @@ Examples:
 - `feat(agents): add skills bindings for rails-reviewer`
 - `fix(commands): correct migrate help text`
 - `refactor(skills)!: rename skill directory`
-- `feat: support new hook configuration`
 - `fix: handle missing skill references`
   `BREAKING CHANGE: skill lookup now requires explicit names`
 

@@ -5,6 +5,7 @@ from pathlib import Path
 
 
 NAME_RE = re.compile(r"^[a-z0-9-]{1,64}$")
+VERSION_RE = re.compile(r"^\d+\.\d+\.\d+(?:[-+][0-9A-Za-z.-]+)?$")
 LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 
 
@@ -40,6 +41,18 @@ def iter_relative_links(text: str):
         yield target
 
 
+def validate_links(markdown_file: Path, skill_dir: Path, text: str, errors):
+    for link in iter_relative_links(text):
+        target_path = (markdown_file.parent / link).resolve()
+        try:
+            target_path.relative_to(skill_dir.resolve())
+        except ValueError:
+            errors.append(f"{markdown_file}: link escapes skill dir: {link}")
+            continue
+        if not target_path.exists():
+            errors.append(f"{markdown_file}: missing link target: {link}")
+
+
 def main():
     repo_root = Path(__file__).resolve().parents[1]
     skills_dir = repo_root / "skills"
@@ -61,6 +74,8 @@ def main():
                 continue
 
             name = (meta or {}).get("name", "")
+            description = (meta or {}).get("description", "")
+            version = (meta or {}).get("version", "")
             if not name:
                 errors.append(f"{skill_md}: missing name in frontmatter")
             else:
@@ -73,15 +88,20 @@ def main():
                 else:
                     seen_names[name] = str(skill_md)
 
-            for link in iter_relative_links(text):
-                target_path = (skill_dir / link).resolve()
-                try:
-                    target_path.relative_to(skill_dir.resolve())
-                except ValueError:
-                    errors.append(f"{skill_md}: link escapes skill dir: {link}")
-                    continue
-                if not target_path.exists():
-                    errors.append(f"{skill_md}: missing link target: {link}")
+            if not description:
+                errors.append(f"{skill_md}: missing description in frontmatter")
+            if not version:
+                errors.append(f"{skill_md}: missing version in frontmatter")
+            elif not VERSION_RE.match(version):
+                errors.append(f"{skill_md}: version '{version}' must be a semantic version")
+
+            for markdown_file in sorted(skill_dir.rglob("*.md")):
+                validate_links(
+                    markdown_file,
+                    skill_dir,
+                    markdown_file.read_text(encoding="utf-8"),
+                    errors,
+                )
 
     if errors:
         print("Skill validation failed:")
