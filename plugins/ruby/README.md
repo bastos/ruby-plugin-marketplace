@@ -1,4 +1,4 @@
-# Ruby Plugin for Claude Code
+# Ruby Plugin for Codex and Claude Code
 
 A comprehensive Ruby development toolkit with 8 skills covering Ruby features, metaprogramming, stdlib, design patterns, performance optimization, gem development, Rake, and Bundler.
 
@@ -69,7 +69,7 @@ gem install ruby-lsp
 /plugin marketplace add bastos/ruby-plugin-marketplace
 
 # Install the plugin
-/plugin install ruby@bastos-plugins
+/plugin install ruby@bastos-ruby-plugin-marketplace
 ```
 
 ### Via Claude Code CLI
@@ -81,7 +81,7 @@ claude --plugin-dir /path/to/plugins/ruby
 ## Requirements
 
 - Ruby 3.2+
-- Claude Code
+- Codex or Claude Code
 - `ruby-lsp` gem (for LSP features): `gem install ruby-lsp`
 
 ## Usage Examples

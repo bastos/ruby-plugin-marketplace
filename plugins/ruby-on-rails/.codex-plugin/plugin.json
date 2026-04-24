@@ -1,0 +1,20 @@
+{
+  "name": "ruby-on-rails",
+  "version": "1.1.0",
+  "description": "Comprehensive Ruby on Rails development toolkit for Codex - 16 skills covering Rails components, Hotwire, testing, security, performance, and staff-level Rails code review",
+  "author": {
+    "name": "Tiago Bastos da Silva",
+    "email": "code@bastos.dev"
+  },
+  "license": "MIT",
+  "keywords": ["rails", "ruby", "hotwire", "turbo", "stimulus", "minitest", "activerecord", "activejob", "actionmailer", "activestorage", "actioncable", "actiontext", "code-review"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ruby on Rails",
+    "shortDescription": "Rails development and code review skills for Rails applications",
+    "longDescription": "Use this plugin for Rails conventions, controllers, views, migrations, Active Record, Hotwire, jobs, mailers, storage, caching, testing, security, performance, deployment, and Rails code review.",
+    "developerName": "Tiago Bastos da Silva",
+    "category": "Coding",
+    "capabilities": ["Interactive", "Read", "Write"]
+  }
+}

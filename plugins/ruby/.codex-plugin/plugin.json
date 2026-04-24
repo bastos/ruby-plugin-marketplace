@@ -1,0 +1,20 @@
+{
+  "name": "ruby",
+  "version": "1.0.1",
+  "description": "Ruby development toolkit with LSP support - metaprogramming, stdlib, design patterns, performance optimization, gem development, Rake, and Bundler for Ruby 3.x",
+  "author": {
+    "name": "Tiago Bastos da Silva",
+    "email": "code@bastos.dev"
+  },
+  "license": "MIT",
+  "keywords": ["ruby", "metaprogramming", "dsl", "stdlib", "gems", "performance", "patterns", "rake", "bundler", "lsp"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ruby",
+    "shortDescription": "Ruby development skills for idiomatic code, tooling, gems, and performance",
+    "longDescription": "Use this plugin for Ruby language work, metaprogramming, standard library usage, design patterns, performance profiling, gem development, Rake, Bundler, and Ruby LSP guidance.",
+    "developerName": "Tiago Bastos da Silva",
+    "category": "Coding",
+    "capabilities": ["Interactive", "Read", "Write"]
+  }
+}

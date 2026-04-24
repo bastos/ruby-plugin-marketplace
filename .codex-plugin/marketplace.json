@@ -1,0 +1,32 @@
+{
+  "name": "bastos-ruby-plugin-marketplace",
+  "interface": {
+    "displayName": "Bastos Ruby Plugin Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "ruby-on-rails",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ruby-on-rails"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "rspec",
+      "source": {
+        "source": "local",
+        "path": "./plugins/rspec"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "ruby",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ruby"
+      },
+      "category": "Coding"
+    }
+  ]
+}

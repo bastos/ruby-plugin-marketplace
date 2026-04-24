@@ -1,6 +1,6 @@
 ---
 name: rails-code-review
-description: Portable staff-level Rails code review workflow for any Rails project: local changes, branch diffs, pull requests, Rails architecture, Rails conventions, and maintainability reviews. Use this whenever the user asks to review Rails code or Rails application changes. If the review target is not explicit, ask whether to review local changes, this branch against main, or a pull request before proceeding.
+description: "Portable staff-level Rails code review workflow for any Rails project: local changes, branch diffs, pull requests, Rails architecture, Rails conventions, and maintainability reviews. Use this whenever the user asks to review Rails code or Rails application changes. If the review target is not explicit, ask whether to review local changes, this branch against main, or a pull request before proceeding."
 version: 1.0.0
 ---
 

@@ -1,4 +1,4 @@
-# Ruby on Rails Plugin for Claude Code
+# Ruby on Rails Plugin for Codex and Claude Code
 
 A comprehensive Rails development toolkit with 16 skills covering all major Rails components, helping you build Rails 7+ applications with Hotwire following best practices for security, performance, and code review.
 
@@ -67,10 +67,10 @@ A comprehensive Rails development toolkit with 16 skills covering all major Rail
 
 ```
 # Add the marketplace
-/plugin marketplace add bastos/ruby-on-rails
+/plugin marketplace add bastos/ruby-plugin-marketplace
 
 # Install the plugin
-/plugin install ruby-on-rails@bastos-plugins
+/plugin install ruby-on-rails@bastos-ruby-plugin-marketplace
 ```
 
 ### Via Claude Code CLI
@@ -102,7 +102,7 @@ custom_generators:
 
 - Ruby 3.0+
 - Rails 7.0+
-- Claude Code
+- Codex or Claude Code
 
 ## Usage Examples
 

@@ -1,4 +1,4 @@
-# RSpec Plugin for Claude Code
+# RSpec Plugin for Codex and Claude Code
 
 A comprehensive RSpec testing toolkit with 7 skills covering core RSpec, matchers, mocks, Rails integration, Factory Bot, test organization, and performance optimization.
 
@@ -40,10 +40,10 @@ A comprehensive RSpec testing toolkit with 7 skills covering core RSpec, matcher
 
 ```
 # Add the marketplace
-/plugin marketplace add bastos/ruby-on-rails
+/plugin marketplace add bastos/ruby-plugin-marketplace
 
 # Install the plugin
-/plugin install rspec@bastos-plugins
+/plugin install rspec@bastos-ruby-plugin-marketplace
 ```
 
 ### Via Claude Code CLI
@@ -56,7 +56,7 @@ claude --plugin-dir /path/to/plugins/rspec
 
 - Ruby 3.0+
 - RSpec 3.x
-- Claude Code
+- Codex or Claude Code
 
 ## Usage Examples
 

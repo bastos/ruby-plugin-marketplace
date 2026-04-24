@@ -1,6 +1,6 @@
 ---
 name: javascript-in-rails
-description: Guidance for integrating JavaScript in Rails: import maps, jsbundling-rails (Bun/esbuild/Rollup/Webpack), Turbo helpers, request.js, and UJS replacements. Use when the user asks about JavaScript setup, bundlers, or client-side behavior in Rails.
+description: "Guidance for integrating JavaScript in Rails: import maps, jsbundling-rails (Bun/esbuild/Rollup/Webpack), Turbo helpers, request.js, and UJS replacements. Use when the user asks about JavaScript setup, bundlers, or client-side behavior in Rails."
 version: 1.0.0
 ---
 
