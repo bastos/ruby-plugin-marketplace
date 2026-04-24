@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "A collection of Ruby plugins for Claude Code created by @bastos",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   "plugins": [
     {
       "name": "ruby-on-rails",
       "source": "./plugins/ruby-on-rails",
       "description": "Comprehensive Ruby on Rails development toolkit - 16 skills covering all Rails components (Active Record, Action Controller, Action View, Active Job, Action Mailer, Active Storage, Action Cable, Action Text, Hotwire), plus generators, migrations, testing, security, performance tools, and staff-level Rails code review",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "Tiago Bastos da Silva",
         "email": "code@bastos.dev"

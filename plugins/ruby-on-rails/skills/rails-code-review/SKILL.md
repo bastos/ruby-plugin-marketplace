@@ -6,9 +6,23 @@ version: 1.0.0
 
 # Rails Code Review
 
-Review Rails changes with concrete repository evidence. `SKILL.md` defines the workflow; [references/review-rubric.md](references/review-rubric.md) provides context, examples, review lenses, and detailed Rails component checks.
+Review Rails changes with concrete repository evidence. `SKILL.md` defines the workflow; the bundled references provide context, examples, review lenses, and detailed Rails component checks.
 
-Read the reference after you know the target and changed files. Use it to identify code that fights Rails behavior or bypasses Rails primitives, not to impose generic style.
+Resolve bundled reference paths relative to this `SKILL.md` file, not relative
+to the Rails project being reviewed. In Codex or Claude Code plugin installs,
+use the skill path shown in the loaded skill block and read:
+
+- `<rails-code-review skill directory>/references/project-discovery.md`
+- `<rails-code-review skill directory>/references/review-rubric.md`
+
+If a direct `references/...` read fails, first locate the `rails-code-review`
+skill directory in the installed plugin bundle or local skill cache, then read
+the files from its `references/` directory. Do not report missing references
+until checking that skill-bundle location.
+
+Read the reference after identifying the target and changed files. Use it to
+identify code that fights Rails behavior or bypasses Rails primitives, not to
+impose generic style.
 
 This skill must work in any Rails project. Discover the app's Rails version,
 testing setup, database, frontend choices, background job backend,
@@ -35,8 +49,8 @@ Do not post PR comments, resolve threads, stage, commit, or run destructive comm
 
 1. Collect the diff for the chosen target.
 2. Read repository instructions and project docs that apply to changed files.
-3. Read [references/project-discovery.md](references/project-discovery.md) to adapt the review to this app.
-4. Read the reference rubric for source context and detailed review criteria.
+3. Read `references/project-discovery.md` from this skill directory to adapt the review to this app.
+4. Read `references/review-rubric.md` from this skill directory for source context and detailed review criteria.
 5. Inspect surrounding code only to answer concrete questions raised by the diff.
 6. Compare the change against existing local patterns.
 7. Report only evidence-backed findings.

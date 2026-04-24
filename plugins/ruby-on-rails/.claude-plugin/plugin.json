@@ -1,6 +1,6 @@
 {
   "name": "ruby-on-rails",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Comprehensive Ruby on Rails development toolkit for Claude Code - 16 skills covering all Rails components (Active Record, Action Controller, Action View, Active Job, Action Mailer, Active Storage, Action Cable, Action Text, Hotwire), plus generators, migrations, testing, security, performance tools, and staff-level Rails code review",
   "author": {
     "name": "Tiago Bastos da Silva",
