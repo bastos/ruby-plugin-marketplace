@@ -138,6 +138,8 @@ end
 ### Hash vs Array Lookup
 
 ```ruby
+require "set"
+
 array = (1..1000).to_a
 hash = array.to_h { |n| [n, true] }
 set = Set.new(array)

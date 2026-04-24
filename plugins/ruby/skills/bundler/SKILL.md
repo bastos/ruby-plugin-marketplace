@@ -79,9 +79,6 @@ end
 # Skip groups during install
 bundle config set --local without development test
 bundle install
-
-# Or inline
-bundle install --without development test
 ```
 
 ## Gem Sources
@@ -171,6 +168,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  aarch64-linux
   x86_64-linux
 
 DEPENDENCIES
@@ -186,8 +184,9 @@ BUNDLED WITH
 ### Managing Platforms
 
 ```bash
-# Add platform
-bundle lock --add-platform x86_64-linux arm64-darwin
+# Add target platforms to the lock file. Include Linux ARM when deploying
+# native gems to Raspberry Pi or other aarch64 Linux machines.
+bundle lock --add-platform x86_64-linux aarch64-linux arm64-darwin
 
 # Remove platform
 bundle lock --remove-platform x86_64-linux

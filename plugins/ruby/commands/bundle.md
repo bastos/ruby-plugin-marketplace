@@ -23,11 +23,13 @@ The user may provide:
 # Install all gems from Gemfile.lock
 bundle install
 
-# Install without development/test gems
-bundle install --without development test
+# Install without development/test gems. Bundler remembers this setting locally.
+bundle config set --local without development test
+bundle install
 
-# Install to vendor directory
-bundle install --path vendor/bundle
+# Install to vendor directory. Bundler remembers this setting locally.
+bundle config set --local path vendor/bundle
+bundle install
 
 # Update Gemfile.lock to match Gemfile
 bundle install --redownload
@@ -122,8 +124,8 @@ bundle open rails
 # Generate lock file without installing
 bundle lock
 
-# Update platforms in lock file
-bundle lock --add-platform x86_64-linux
+# Add target platforms to the lock file, including Linux ARM for Pi-style deploys
+bundle lock --add-platform x86_64-linux aarch64-linux arm64-darwin
 
 # Remove platform
 bundle lock --remove-platform x86_64-linux

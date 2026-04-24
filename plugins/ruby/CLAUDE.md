@@ -1,7 +1,8 @@
 # Claude Instructions
 
-This is the Ruby plugin for Claude Code. Follow the project documentation in
-`README.md` and keep changes consistent with the existing plugin structure.
+This is the Ruby plugin for Codex and Claude Code. Follow the project
+documentation in `README.md` and keep changes consistent with the existing
+plugin structure.
 
 ## Repo layout
 
@@ -9,6 +10,7 @@ This is the Ruby plugin for Claude Code. Follow the project documentation in
 - `commands/`: CLI command docs
 - `skills/`: skill definitions and references
 - `.claude-plugin/plugin.json`: plugin metadata
+- `.codex-plugin/plugin.json`: Codex plugin metadata
 
 ## Commit messages (Conventional Commits)
 

@@ -4,7 +4,7 @@ A comprehensive Ruby development toolkit with 8 skills covering Ruby features, m
 
 ## Features
 
-### Skills (Auto-activate)
+### Skills (Codex and Claude Code)
 
 **Ruby:**
 - **Ruby Core** — Blocks, procs, lambdas, pattern matching, enumerables, error handling, Ruby 3.x features
@@ -20,7 +20,7 @@ A comprehensive Ruby development toolkit with 8 skills covering Ruby features, m
 - **Rake** — Task automation, dependencies, file tasks, namespaces
 - **Bundler** — Dependency management, Gemfile, version constraints, gem sources
 
-### Commands
+### Commands (Claude Code)
 
 | Command | Description |
 |---------|-------------|
@@ -30,7 +30,7 @@ A comprehensive Ruby development toolkit with 8 skills covering Ruby features, m
 | `/ruby:rake` | Run Rake tasks with smart discovery |
 | `/ruby:bundle` | Manage dependencies with Bundler |
 
-### Agents
+### Agents (Claude Code)
 
 | Agent | Description |
 |-------|-------------|

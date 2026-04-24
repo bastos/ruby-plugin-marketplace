@@ -29,6 +29,7 @@ capabilities:
   - Develop and publish gems
 skills: ruby-core, metaprogramming, ruby-stdlib, design-patterns, performance, gem-development, rake, bundler
 model: opus
+color: magenta
 permissionMode: default
 ---
 
