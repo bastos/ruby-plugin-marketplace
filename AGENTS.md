@@ -8,6 +8,7 @@ structure.
 
 - `.codex-plugin/marketplace.json`: Codex marketplace manifest
 - `.claude-plugin/marketplace.json`: Claude Code marketplace manifest
+- `package.json`: Pi package manifest
 - `plugins/`: contains individual plugins
   - `ruby/`: Ruby development toolkit
   - `ruby-on-rails/`: Ruby on Rails development toolkit
@@ -17,6 +18,13 @@ structure.
 
 Each plugin lives in `plugins/<plugin-name>/` with its own
 `.codex-plugin/plugin.json` and `.claude-plugin/plugin.json`.
+
+When changing root marketplace files, keep `.codex-plugin/marketplace.json` and
+`.claude-plugin/marketplace.json` in sync with the plugin directories and
+validate that every referenced path exists.
+
+When adding or removing shipped skills, keep the root `package.json` `pi.skills`
+entries aligned so Pi installs can discover the packaged skill directories.
 
 ## Commit messages (Conventional Commits)
 

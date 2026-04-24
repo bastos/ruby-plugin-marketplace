@@ -1,0 +1,25 @@
+{
+  "name": "ruby-plugin-marketplace",
+  "version": "1.1.0",
+  "description": "Ruby, Rails, and RSpec skills for Codex, Claude Code, and Pi.",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "ruby",
+    "rails",
+    "rspec",
+    "agent-skills"
+  ],
+  "files": [
+    "plugins",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "pi": {
+    "skills": [
+      "./plugins/ruby/skills",
+      "./plugins/ruby-on-rails/skills",
+      "./plugins/rspec/skills"
+    ]
+  }
+}

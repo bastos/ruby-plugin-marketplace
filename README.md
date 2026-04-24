@@ -1,6 +1,6 @@
 # Bastos' Ruby Plugin Marketplace
 
-A curated collection of Ruby plugins for Codex and Claude Code.
+A curated collection of Ruby plugins and skills for Codex, Claude Code, and Pi.
 
 ## Available Plugins
 
@@ -12,7 +12,19 @@ A curated collection of Ruby plugins for Codex and Claude Code.
 
 ## Installation
 
-### Add the marketplace
+### Add the marketplace in Codex
+
+```bash
+/plugin marketplace add bastos/ruby-plugin-marketplace
+```
+
+Or with a local path:
+
+```bash
+/plugin marketplace add ./path/to/ruby-plugin-marketplace
+```
+
+### Add the marketplace in Claude Code
 
 ```bash
 /plugin marketplace add bastos/ruby-plugin-marketplace
@@ -26,8 +38,10 @@ Or with a local path:
 
 ### Install a plugin
 
-Use the marketplace name shown by your client. Codex currently registers this
-GitHub marketplace as `bastos-ruby-plugin-marketplace`.
+Use the marketplace name shown by your client.
+
+Codex currently registers this GitHub marketplace as
+`bastos-ruby-plugin-marketplace`:
 
 Ruby (core):
 
@@ -47,6 +61,29 @@ RSpec:
 /plugin install rspec@bastos-ruby-plugin-marketplace
 ```
 
+Claude Code uses the marketplace manifest name `ruby-plugin-marketplace`:
+
+```bash
+/plugin install ruby@ruby-plugin-marketplace
+/plugin install ruby-on-rails@ruby-plugin-marketplace
+/plugin install rspec@ruby-plugin-marketplace
+```
+
+### Install in Pi
+
+```bash
+pi install git:github.com/bastos/ruby-plugin-marketplace
+```
+
+For a project-local install:
+
+```bash
+pi install -l git:github.com/bastos/ruby-plugin-marketplace
+```
+
+Pi loads the packaged skill directories declared in `package.json`. Claude Code
+commands and agents remain available through the Claude Code plugin manifests.
+
 ## Structure
 
 ```
@@ -55,6 +92,7 @@ RSpec:
 │   └── marketplace.json     # Codex marketplace manifest
 ├── .claude-plugin/
 │   └── marketplace.json     # Claude Code marketplace manifest
+├── package.json             # Pi package manifest
 └── plugins/
     ├── ruby/                # Ruby development toolkit
     │   ├── .codex-plugin/
@@ -83,6 +121,11 @@ RSpec:
 2. Add `.codex-plugin/plugin.json` and `.claude-plugin/plugin.json` manifests
 3. Add the plugin entry to `.codex-plugin/marketplace.json` and `.claude-plugin/marketplace.json`
 4. Submit a pull request
+
+## Validation
+
+Before publishing root marketplace changes, check that every manifest is valid
+JSON and that marketplace entries point at existing plugin directories.
 
 ## License
 

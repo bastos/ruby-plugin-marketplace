@@ -1,12 +1,14 @@
 # Claude Instructions
 
-This repository is a Claude Code plugin marketplace. Follow the project
-documentation in `README.md` and keep changes consistent with the marketplace
-structure.
+This repository is a Claude Code and Codex plugin marketplace. Follow the
+project documentation in `README.md` and keep changes consistent with the
+marketplace structure.
 
 ## Repo layout
 
-- `.claude-plugin/marketplace.json`: marketplace manifest
+- `.claude-plugin/marketplace.json`: Claude Code marketplace manifest
+- `.codex-plugin/marketplace.json`: Codex marketplace manifest
+- `package.json`: Pi package manifest
 - `plugins/`: contains individual plugins
   - `ruby/`: Ruby development toolkit
   - `ruby-on-rails/`: Ruby on Rails development toolkit
@@ -14,7 +16,15 @@ structure.
 
 ## Adding plugins
 
-Each plugin lives in `plugins/<plugin-name>/` with its own `.claude-plugin/plugin.json`.
+Each plugin lives in `plugins/<plugin-name>/` with its own
+`.claude-plugin/plugin.json` and `.codex-plugin/plugin.json`.
+
+When changing root marketplace files, keep `.claude-plugin/marketplace.json` and
+`.codex-plugin/marketplace.json` in sync with the plugin directories and
+validate that every referenced path exists.
+
+When adding or removing shipped skills, keep the root `package.json` `pi.skills`
+entries aligned so Pi installs can discover the packaged skill directories.
 
 ## Commit messages (Conventional Commits)
 
